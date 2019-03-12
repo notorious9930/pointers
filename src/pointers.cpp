@@ -20,7 +20,7 @@ int main()
 
 //swap(a,b); //why does theirs work????   
  
-  myswap(a, b); // but mine doesn't ?!?!?!?!!!???
+  myswap(&a, &b); // but mine doesn't ?!?!?!?!!!???
 
   cout<<"a = "<<a<<", b = "<<b<<endl;
 
